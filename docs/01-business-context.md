@@ -1,4 +1,4 @@
-# Portfolio Project: End-to-End Order-to-Cash System Design (BSA-Focused)
+# Portfolio Project: End-to-End Order-to-Cash System Design (System Analyst-Focused)
 
 ## 1. Project Purpose (Why this exists)
 
@@ -162,7 +162,7 @@ Include:
 * Customer master inconsistency
 * Duplicate orders
 
-Document:
+### Documents:
 
 * Source & target fields
 * Transformation logic
@@ -221,32 +221,11 @@ Power BI dashboards focus on **system health**, not just business performance.
 
 ---
 
-## 10. How to Present This in Interviews
-
-Position it as:
-
-> "I designed and validated an end-to-end Order-to-Cash system across CRM, ERP, and analytics layers, focusing on integration reliability and financial accuracy."
-
-Focus on:
-
-* Trade-offs
-* Assumptions
-* Failure handling
-* Why systems were separated
-
----
-
-## 11. Optional Enhancements
+## 10. Optional Enhancements
 
 * Add anomaly detection on invoice mismatches
 * Simulate master data errors
 * Add change request impact analysis
 
----
 
-## 12. Success Criteria
-
-A hiring manager should say:
-
-> "This person thinks in systems, not tools."
 
