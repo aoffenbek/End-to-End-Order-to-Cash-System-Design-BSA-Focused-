@@ -22,6 +22,8 @@ This process prioritizes financial correctness and auditability over speed.
 
 # Swimlane Process Description
 
+![Invoice-to-Cash End-to-End Process](../diagrams/I2C_E2E_Process.png)
+
 **Lane 1: Client / External Source**
 
 - Client submits invoice via portal or upload
@@ -88,3 +90,5 @@ Purpose:
 - Analytics used as a control mechanism, not reporting only
 - System responsibilities clearly defined
 - Failure paths explicitly designed
+
+[def]: ../diagrams/I2C_E2E_Process.png
