@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="Xe3OeyRUvZ2pF_y1SGKb">
+    <mxGraphModel dx="1028" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-1" value="Invoice" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-2" value="ERP = source of truth, created by client, validated in Intake" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-1">
+          <mxGeometry x="15" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-3" value="Accounts Receivable (AR)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-5" value="Revenue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-6" value="Revenue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

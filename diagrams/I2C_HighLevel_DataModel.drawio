@@ -1,0 +1,147 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="Xe3OeyRUvZ2pF_y1SGKb">
+    <mxGraphModel dx="1028" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-1" value="Invoice [ERP – Finance]" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="D5HZOXsU8CqUOCHRyPIJ-1" source="D5HZOXsU8CqUOCHRyPIJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="75" y="190" />
+              <mxPoint x="400" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-2" value="ERP = source of truth, created by client, validated in Intake" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-1">
+          <mxGeometry y="20" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5HZOXsU8CqUOCHRyPIJ-3" target="D5HZOXsU8CqUOCHRyPIJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-17" value="Revenue recognition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5HZOXsU8CqUOCHRyPIJ-10">
+          <mxGeometry x="0.04" relative="1" as="geometry">
+            <mxPoint x="-226" y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-3" value="AR [ERP – Finance]" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="D5HZOXsU8CqUOCHRyPIJ-3" source="D5HZOXsU8CqUOCHRyPIJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="60" />
+              <mxPoint x="170" y="200" />
+              <mxPoint x="190" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-27" value="Linked to Invoice, tracks payments" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-3">
+          <mxGeometry y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5HZOXsU8CqUOCHRyPIJ-6" target="D5HZOXsU8CqUOCHRyPIJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="100" />
+              <mxPoint x="640" y="200" />
+              <mxPoint x="330" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-18" value="Payment applied" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5HZOXsU8CqUOCHRyPIJ-12">
+          <mxGeometry x="-0.2769" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5HZOXsU8CqUOCHRyPIJ-2" target="D5HZOXsU8CqUOCHRyPIJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-16" value="Invoice details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="D5HZOXsU8CqUOCHRyPIJ-9">
+          <mxGeometry x="0.2857" y="-4" relative="1" as="geometry">
+            <mxPoint x="-9" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#000000;" edge="1" parent="1" source="D5HZOXsU8CqUOCHRyPIJ-2" target="D5HZOXsU8CqUOCHRyPIJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="170" />
+              <mxPoint x="440" y="170" />
+              <mxPoint x="440" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-5" value="Revenue [ERP – Finance]" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-33">
+          <mxGeometry width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="D5HZOXsU8CqUOCHRyPIJ-33" source="D5HZOXsU8CqUOCHRyPIJ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="60" />
+              <mxPoint x="-10" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-28" value="Linked to Invoice, reflects revenue recognition" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-33">
+          <mxGeometry y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-7" value="Exception [Intake / Power BI – BSA/Finance]" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-36">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-30" value="Optional, tracks invalid or duplicate invoices" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-36">
+          <mxGeometry y="30" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-6" value="Payment [ERP – Finance]" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-35">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="D5HZOXsU8CqUOCHRyPIJ-35" source="D5HZOXsU8CqUOCHRyPIJ-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="190" />
+              <mxPoint x="-220" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-29" value="Linked to AR, partial or full payment" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-35">
+          <mxGeometry y="20" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-38" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="250" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-8" value="KPI [Power BI – Data/BI]" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-38">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-31" value="Read-only aggregate, sourced from Data Platform / Power BI" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="D5HZOXsU8CqUOCHRyPIJ-38">
+          <mxGeometry y="20" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="D5HZOXsU8CqUOCHRyPIJ-30" target="D5HZOXsU8CqUOCHRyPIJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-43" value="Exeption flag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5HZOXsU8CqUOCHRyPIJ-42">
+          <mxGeometry x="-0.36" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5HZOXsU8CqUOCHRyPIJ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="D5HZOXsU8CqUOCHRyPIJ-30" target="D5HZOXsU8CqUOCHRyPIJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
