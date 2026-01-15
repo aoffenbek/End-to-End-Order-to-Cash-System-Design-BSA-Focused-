@@ -66,8 +66,10 @@ ERP (SAP-style) acts as the **system of record**, while analytics platforms prov
 │   ├── 07-test-scenarios-and-uat.md
 │   ├── 08-data-reconciliation-and-kpis.md
 │   ├── 09-change-management-and-impact-analysis.md
+│   ├── 10-go-live-and-cutover.md
+│   ├── 11-sap-module-mapping.md
 ├── diagrams/
-│   ├── I2C_Process_Flow.png
+│   ├── I2C_E2E_Process.png
 │   ├── I2C_Logical_System_Architecture.png
 │   ├── I2C_HighLevel_DataModel.png
 ```
@@ -126,7 +128,7 @@ This project is designed to support applications for:
 ## How to Use This Repository
 
 * Start with this README
-* Review documents in logical order (01 → 09)
+* Review documents in logical order (01 → 11)
 * Refer to diagrams for visual understanding
 
 ---
